@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gql-sample-app:
+    build: ./app
+    image: schittora/gql-sample-app
+    ports:
+      - "8080:4000"
+  gql-spec-runner:
+    build: ./gql-spec-runner
+    image: schittora/gql-spec-runner
+    network_mode: host
+    depends_on:
+      - gql-sample-app

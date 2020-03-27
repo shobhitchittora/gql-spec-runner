@@ -1,0 +1,12 @@
+version: 3
+suite:
+  name: "gql-test-suite"
+  tests: 
+    - should run a query properly :
+        tupe: "query"
+        query: '{ hello }'
+        expected: 'Hello world!'
+    - should run a query properly again :
+        type: "mutation"
+        query: '{ hello }'
+        expected: 'Hello world!'

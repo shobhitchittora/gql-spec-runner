@@ -1,0 +1,20 @@
+{
+  "name": "gql-spec-runner",
+  "version": "1.0.0",
+  "description": "Graphql spec runner",
+  "repository": "https://graphql.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-request": "^1.8.2",
+    "lodash.get": "^4.4.2",
+    "table": "^5.4.6",
+    "yaml": "^1.8.3"
+  }
+}
