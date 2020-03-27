@@ -1,2 +1,4 @@
-docker-compose build
-docker-compose up
+#### Commands
+
+```docker-compose build``` <br/>
+```docker-compose up```
